@@ -1,0 +1,97 @@
+.topicBlock {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.topicList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topicCard {
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.topicCard.low {
+  background-color: red;
+}
+
+.topicCard.medium {
+  background-color: yellow;
+}
+
+.topicCard.high {
+  background-color: green;
+}
+
+.legend {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.colorBox {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.colorBox.low {
+  background-color: red;
+}
+
+.colorBox.medium {
+  background-color: yellow;
+}
+
+.colorBox.high {
+  background-color: green;
+}
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.conceptList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.conceptCard {
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.conceptCard.low {
+  background-color: red;
+}
+
+.conceptCard.medium {
+  background-color: yellow;
+}
+
+.conceptCard.high {
+  background-color: green;
+}
